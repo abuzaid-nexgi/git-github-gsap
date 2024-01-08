@@ -37,7 +37,7 @@ gsap.to('.square2', {
     toggleActions: 'restart none reverse none',
     scrub:true,
   },
-  x: -400,
+  x: -1000,
   y: -400,
   rotate: 360,
   duration: 3,
