@@ -19,10 +19,11 @@ body {
     background-color: green;
     transform: rotate(45deg);
     z-index: 2;
+    opacity: 0;
 }
 .square2{
-    position: fixed;
-    right: 10%;
+    position: absolute;
+    right: 0%;
     bottom: 0%;
     width: 150px;
     height: 150px;
@@ -78,6 +79,7 @@ p {
 }
 
 .parallax4 {
+    position: relative;
     color: white;
     min-height: 100vh;
     background-image: url(./b7.jpg);
