@@ -33,8 +33,8 @@ gsap.fromTo('.square', {
 gsap.to('.square2', {
   scrollTrigger: {
     trigger: '.square2',
-    // start:'top bottom',
-    // toggleActions: 'restart none reverse none',
+    start:'top bottom',
+    toggleActions: 'restart none reverse none',
     scrub:true,
   },
   x: -400,
